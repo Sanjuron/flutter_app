@@ -16,6 +16,8 @@ en ligne de commande
 - Stateless : le state ne change pas
 - Stateful : le state peut changer
 
+`image: NetworkImage()` pour ajouter une image depuis une adresse web
+
 
 ## Getting Started
 

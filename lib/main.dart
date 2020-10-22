@@ -11,23 +11,16 @@ class Home extends StatelessWidget {
       appBar: AppBar(
           title: Text('ma première app'),
           centerTitle: true,
-          backgroundColor: Colors.green[600]
+          backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Text(
-          'Salut Tout le monde',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'VampiroOne',
-          ),
+        child: Image(
+          image: NetworkImage("https://www.arte.tv/sites/olivierpere/files/ikiru-shimura-image2.jpg"),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green[600],
-        child: Text('click'),
+        child: Text('cliquez'),
       ),
     );
   }
