@@ -20,6 +20,8 @@ en ligne de commande
 
 Un **Container** occupe **tout l'espace** qui lui est disponible mais s'il possède un enfant, alors le container occupe l'espace de l'enfant.
 
+Le système de **colonnes et de rangées** fonctionne sur un principe similaire au **flex et grid**.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
