@@ -1,6 +1,12 @@
-# new_project
+# infos
 
-A new Flutter project.
+en ligne de commande
+
+    flutter create nom_projet (toujours underscore) : créer projet flutter
+    flutter run : lance l'application
+    r : permet un "hot reload"
+    d : détache le run du terminal sans y mettre fin
+
 
 ## Getting Started
 
