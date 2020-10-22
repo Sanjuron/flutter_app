@@ -14,9 +14,15 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Image(
-          image: NetworkImage("https://www.arte.tv/sites/olivierpere/files/ikiru-shimura-image2.jpg"),
-        ),
+        child:
+          IconButton(
+            onPressed: () {
+              print("Vous m'avez cliqué!!!"); 
+            },
+            icon: Icon(Icons.alternate_email),
+            color: Colors.green,
+            iconSize: 50.0,
+          )
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green[600],
