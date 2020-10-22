@@ -1,31 +1,34 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MaterialApp( // MaterialApp est une sorte de wrapper pour des widgets de layout
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'ma première app',
-            style: TextStyle( // TextStyle dans style dans title pour gérer les propriétés de stylisation du titre
-              fontSize: 25.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.white70,
-              fontFamily: 'VampiroOne',
-            ),
-            ),
+void main() => runApp(MaterialApp(
+  home: Home(),
+));
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+          title: Text('ma première app'),
           centerTitle: true,
-          backgroundColor: Colors.green,
-        ), // AppBar
-        body: Center(
-          child: Text("Salut tout le monde!"), // tjrs préciser child quand on inclut un widget dans un widget
-        ), // Center
-        floatingActionButton: FloatingActionButton( // FloatingActionButton requiert une propriété de clic
-          onPressed: () {},
-          child: Text("cliquez"),
-          backgroundColor: Colors.green,
-        ), // floatingActionButton
-      ), // Scaffold
-      
-  )); // MaterialApp
+          backgroundColor: Colors.green[600]
+      ),
+      body: Center(
+        child: Text(
+          'Salut Tout le monde',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.grey[600],
+            fontFamily: 'VampiroOne',
+          ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.green[600],
+        child: Text('click'),
+      ),
+    );
+  }
 }

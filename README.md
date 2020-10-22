@@ -10,6 +10,12 @@ en ligne de commande
 
 **Scaffold** est un **widget** de base pour la **gestion de l'apparence globale** de l'app. Peut inclure un **appBar** (barre de titre/navigation), un **body** ou encore un **FloatingActionButton** (un bouton pour cliquer en bas en droite). 
 
+**Attention** Vsc ne semble pas gérer l'upgrade des dépendances. 
+
+2 types de Widget:
+- Stateless : le state ne change pas
+- Stateful : le state peut changer
+
 
 ## Getting Started
 
