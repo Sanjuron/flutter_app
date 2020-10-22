@@ -7,6 +7,8 @@ en ligne de commande
     r : permet un "hot reload"
     d : détache le run du terminal sans y mettre fin
 
+**Scaffold** est un **widget** de base pour la **gestion de l'apparence globale** de l'app. Peut inclure un **appBar** (barre de titre/navigation), un **body** ou encore un **FloatingActionButton** (un bouton pour cliquer en bas en droite). 
+
 
 ## Getting Started
 
