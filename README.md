@@ -18,6 +18,7 @@ en ligne de commande
 
 `image: NetworkImage()` pour ajouter une image depuis une adresse web
 
+Un **Container** occupe **tout l'espace** qui lui est disponible mais s'il possède un enfant, alors le container occupe l'espace de l'enfant.
 
 ## Getting Started
 
