@@ -14,23 +14,30 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.green[600],
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly, // équivalent du justify-content
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text("Salut tout le monde!!!"),
-          FlatButton(
-            onPressed: (){
-              print("C'est cliqué");
-            },
-            color: Colors.green[600],
-            child: Text('Cliquez'),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.green,
+              child: Text("1"),
+            ),
           ),
-          Container(
-            color: Colors.amber,
+          Expanded(
+          child: Container(
             padding: EdgeInsets.all(30.0),
-            child: Text("container"),
-          )
+            color: Colors.cyan,
+            child: Text("2"),
+          ),
+          ),
+          Expanded(
+          child: Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.amber,
+            child: Text("3"),
+          ),
+          ),
         ],
+
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green[600],
